@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body{
+  background-color: #edf7f3;
+}
+
+.containers {
+  height: 300px;
+  width: 30%;
+  left: 50%;
+  top: 50%;
+  border-radius: 10px;
+  box-shadow: rgba(220, 102, 155, 0.2) 0px 7px 29px 0px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.home{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.containers p{
+  color: #949999;
+  line-height: 1px;
+}
+.containers button{
+  padding: 10px;
+  margin: 10px;
+  width: 30%;
+  border: none;
+  background-color: #6b462e;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
